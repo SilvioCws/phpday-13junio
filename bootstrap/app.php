@@ -65,6 +65,7 @@ $app->singleton(
 
  $app->routeMiddleware([
  	'valid_store_id' => 'App\Http\Middleware\ValidStoreId',
+ 	'valid_product_id' => 'App\Http\Middleware\ValidProductId',
  	'valid_store_secret' => 'App\Http\Middleware\ValidStoreSecret'
  ]);
 
